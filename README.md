@@ -1,2 +1,14 @@
-# secretduroi_platform
-secretduroi Platform repository
+# Выполнено ДЗ №
+ - [ ] Основное ДЗ
+
+## В процессе сделано:
+ - Описан и собран докерфайл (содержимое файла homework.html описывает причину пересоздания контрол-плейн подов)
+ - Докеримадж запушен в реджистри tuntsov/app
+
+## Как запустить проект:
+ - kubectl apply -f web-pod.yaml 
+
+## Как проверить работоспособность:
+ - kubectl port-forward --address 0.0.0.0 pod/web 8000:8000
+ - перейти по ссылке localhost:8000
+
